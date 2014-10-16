@@ -1,7 +1,7 @@
 class Prestadev
   def Prestadev.configure(config, settings)
     # Configure The Box
-    config.vm.box = "prestadev"
+    config.vm.box = "oavea/prestadev"
     config.vm.hostname = "prestadev"
 
     # Configure A Private Network IP
